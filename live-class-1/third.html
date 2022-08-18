@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>tables and forms</title>
+  </head>
+  <body>
+    <!-- tables -->
+
+    <table>
+      <tr>
+        <td>sr no.</td>
+        <td>name</td>
+        <td>hello</td>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>A</td>
+        <td rowspan="5">hii</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>B</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>c</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>d</td>
+      </tr>
+      <tr>
+        <td colspan="3">hello</td>
+      </tr>
+    </table>
+
+    <!-- forms -->
+
+    <form action="#">
+      name:
+      <input type="text" name="name" placeholder="enter your name" />
+      <br />
+      email:
+      <input type="email" name="email" placeholder="enter your email" />
+      <br />
+      password:
+      <input
+        type="password"
+        name="password"
+        placeholder="enter your password"
+      /><br />
+      <label for="gender">Gender:</label>
+      <input type="radio" name="gender" value="male" />Male
+      <input type="radio" name="gender" value="female" />Female
+    </form>
+    <br />
+
+    Coding:<br />
+    <input type="checkbox" name="lang" value="html" />Html<br />
+    <input type="checkbox" name="lang" value="css" />css<br />
+    <input type="checkbox" name="lang" value="javascript" />javascript<br />
+    <input type="checkbox" name="lang" value="react" />react<br />
+    <input type="checkbox" name="lang" value="django" />django<br />
+    <br />
+    <button type="submit">Submit</button>
+  </body>
+</html>
