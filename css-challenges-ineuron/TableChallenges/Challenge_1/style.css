@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+* {
+  font-family: "poppins", "verdana";
+  box-sizing: border-box;
+}
+body{
+  height: 100vh;
+  width: auto;
+  padding: 0;
+  margin: 0;
+  background-color: #636262;
+  color: #fff;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+h1,h2{
+  display: inline;
+  text-align: center;
+}
+
+div.yo{
+  box-sizing: border-box;
+  padding-left: 100px;
+  height: fit-content;
+  padding-bottom: 30px;
+  color: #fff;
+  font-size: 18px;
+  height: 400px;
+  width: 600px;
+}
+
+.yo h3{
+  text-align: right;
+  padding-left: -40px;
+}
+
+.yo input, .yo select{
+  border-radius: 30px;
+  border: 0;
+padding: 3px;
+margin-left: 10px;
+}
+
+.yo button{
+  width: 400px;
+  height: 35px;
+  border-radius: 30px;
+  border: 0;
+  color: #fff;
+  font-size: 20px;
+  background-color: #0c81ff;
+}
